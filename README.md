@@ -16,6 +16,7 @@ void binary_print(unsigned short v, char *src) {
 
 ```
 实验结果展示： 
+
 ![show][1]
 
 通过实验，显示当输入范围不在0~65535之间的时候，转换过程结束。main函数中部分调用如下：
@@ -120,7 +121,8 @@ void Base64Decode(char *src, unsigned char* des) {
 }
 ```
 
-###结果展示：![decode][2]
+###结果展示：
+![decode][2]
 
 
   [1]: https://github.com/trajepl/ljp/blob/master/pic/binary_show.png?raw=true
